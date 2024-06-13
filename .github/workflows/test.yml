@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install modules
-        working-directory: "./strajk-bowling"
+        working-directory: "./STRIKE-BOWLING"
         run: npm install
       - name: Run tests
         working-directory: "./STRIKE-BOWLING"
