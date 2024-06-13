@@ -16,6 +16,6 @@ jobs:
         run: npm install
       - name: Run tests
         working-directory: "./STRIKE-BOWLING"
-        run: npm run test
+        run: npm test
 
         
